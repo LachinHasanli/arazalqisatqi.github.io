@@ -1,0 +1,202 @@
+/* General Styling */
+.logo-img {
+  max-width: 150px;
+  height: auto;
+}
+
+.img22 {
+  max-width: 150px;
+  height: auto;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav {
+  float: right;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+a {
+
+
+  color: #000000;
+  background-size: cover;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+
+  color: rgb(219, 142, 0);
+}
+
+/* Hero Section */
+
+.hero {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  color: #000000;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 0 30px 0;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: rgb(244, 225, 189);
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #000000;
+  color: rgb(244, 225, 189);
+}
+
+/* About Us Section */
+
+.about-us {
+  background-color: rgb(244, 225, 189);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 30px 0;
+}
+
+.about-us p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn-secondary {
+  display: inline-block;
+  background-color: rgb(244, 225, 189);
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #000000;
+  color: rgb(244, 225, 189);
+}
+
+/* Properties Section */
+
+.properties {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.properties h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 30px 0;
+}
+
+.property {
+  display: inline-block;
+  margin: 0 20px 50px 20px;
+  max-width: 350px;
+  text-align: left;
+}
+
+.property img {
+  max-width: 100%;
+  height: auto;
+}
+
+.property h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+}
+
+.property p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Contact Us Section */
+
+.contact-us {
+  background-color: rgb(244, 225, 189);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact-us h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 30px 0;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
